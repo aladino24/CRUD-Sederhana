@@ -1,0 +1,75 @@
+.card .judul {
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.card h2 {
+    font-family:'Acme', sans-serif;
+}
+label {
+    font-family:'Acme', sans-serif;
+}
+button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card a {
+    color: black;
+}
+.card a:link {
+    text-decoration: none;   
+    cursor: pointer;
+}
+.card a:hover {
+    color: black;
+}
+.tombol-daftar {
+    width: 100%;
+}
+.tombol-daftar a{
+    text-decoration: none;
+    color: white;
+}
+.tombol-daftar a:hover {
+    color : white;
+}
+.card-footer p{
+    color: black;
+    text-align: center;
+}
+
+@media (min-width: 992px) { 
+    .card .judul {
+        text-align: center;
+    }
+    
+    .card {
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    .card h2 {
+        font-family:'Acme', sans-serif;
+    }
+    label {
+        font-family:'Acme', sans-serif;
+    }
+    button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    form a {
+        color: black;
+    }
+    form a:link {
+        text-decoration: none;   
+        cursor: pointer;
+    }
+    form a:hover {
+        color: black;
+    }
+    
+}
